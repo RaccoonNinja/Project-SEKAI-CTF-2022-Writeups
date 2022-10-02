@@ -39,7 +39,7 @@ def get_public_key_url(token):
     return pubkey_url
 ```
 
-While the domain is whitelisted and a proper URL check is done (as opposed to `/^http://localhost:8080/`), there's another **open-redirect vulnerability**. Namely we can redirect the server to our own domain, bypassing the whitelist:
+While the domain is whitelisted and a proper URL check is done (as opposed to cringy `/^http:\/\/localhost:8080/`), there's another **open-redirect vulnerability**. Namely we can redirect the server to our own domain, bypassing the whitelist:
 
 ```py
 @app.route("/logout")
