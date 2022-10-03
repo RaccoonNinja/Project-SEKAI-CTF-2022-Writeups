@@ -100,7 +100,7 @@ Now it is just a basic crypto challenge.
 My approach is accessible enough for beginners to Java ~like me~: just use an [online Java playground](https://www.online-java.com/) and print the intermediate output.
 I used `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ` as the flag body so the intermediate states will be unambiguous.
 
-Here is an overflow of what it does:
+Here is an overview of what it does:
 1. Checks if the string is of the correct format `SEKAI{...}` with 36 characters between the curly braces. (*Sekai.main*)
 1. Places the flag body into a 6\*6 grid. (*Sekai.transform*)
 1. Permute the grid entries (It really is a 90 degree clockwise rotation) (*Sekai.solve*)
