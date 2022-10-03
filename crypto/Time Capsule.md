@@ -16,7 +16,7 @@ Then the second step is reversed as followings: (remember that `88` is a part of
 
 If you have peeked into the first part of the encryption, you will know that we are getting somewhere - all the characters are ASCII and the crucial `SEKAI{}` is in it.
 
-We basic debugging techniques we can find out the first part is a simple permutation cipher:
+We basic debugging techniques we can find out the first part is a simple permutation cipher (I used `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefg` as the flag for simplicity):
 
 ![image](https://user-images.githubusercontent.com/114584910/193500811-396bd63b-0a58-4e2b-a4bb-5a225cf09a50.png)
 
