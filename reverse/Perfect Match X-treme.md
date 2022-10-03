@@ -24,10 +24,11 @@ I knew breakpoints can be set in it for single binaries, and the local variable 
   - I can end up very high above and can't see the flags
   - Sometimes I was lucky that I could move horizontally freely even after jumping away, I cannot repeat it
 
-<img width="421" alt="scrnsht1" src="https://user-images.githubusercontent.com/114584910/193581686-a783efba-0ae4-4df7-89bb-8a8a1797d9e5.png"> (mirrored)
+I finally disabled gravity and set the game to win at 1 round (*GameManager.IncreaseRound*). This way my height is will not be very large and the flag pieces are still visible. (the first image was mirrored)
+
+<img width="421" alt="scrnsht1" src="https://user-images.githubusercontent.com/114584910/193581686-a783efba-0ae4-4df7-89bb-8a8a1797d9e5.png">
 <img width="421" alt="scrnsht3" src="https://user-images.githubusercontent.com/114584910/193604404-59ac0915-ce44-454a-8abe-3b8afe755978.png">
 
-I finally disabled gravity and set the game to win at 1 round (*GameManager.IncreaseRound*). This way my height is will not be very large and the flag pieces are still visible.
 
 P.S. I have to Save Module after Compiling the Class/Methods and select **Mixed mode**, otherwise the classes cannot be edited again. I'm not sure what that meant.
 
