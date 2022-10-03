@@ -1,6 +1,6 @@
 ## Skills involved: Reversing Unity Game
 
-This challenge is clear about what to do but there are a lot of ways.
+This super-fun challenge is clear about what to do but there are a lot of ways.
 
 ## Solution:
 
