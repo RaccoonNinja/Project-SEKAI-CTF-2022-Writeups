@@ -4,3 +4,11 @@
 $raccoon-yellow: #f2c664;
 $header: $raccoon-yellow;
 @import "{{ site.theme }}";
+
+header {
+  border-bottom: 1px dashed $header;
+}
+
+header h1{
+  color: $header;
+}
