@@ -1,0 +1,14 @@
+# https://gist.github.com/pdarragh/c7ca120604c1a1d8b8de
+
+- title: Home
+  url: /
+
+- title: Web challs
+  url: /web/
+  sublinks:
+    - title: Bottle Poem
+      url: /web/Bottle Poem
+    - title: Issues
+      url: /web/Issues
+    - title: Sekai game start
+      url: /web/[unsolved] sekai game start
